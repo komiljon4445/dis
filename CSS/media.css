@@ -1,0 +1,55 @@
+@media  (max-width:950px){
+    .nav-list{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+}
+
+@media  (max-width:790px){
+    .hero-content{
+        flex-direction: column-reverse;
+    }
+.hero-right{
+    margin: 0 auto;
+}
+
+
+.hero{
+    padding: 90px 0 110px 0;
+}
+
+
+.hero__left{
+        width: 100%;
+}
+}
+
+@media  (max-width:580px){
+    .hero-right img{
+        height: auto;
+    }
+
+    .hero__left h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 100%; 
+    }
+.hero__left p{
+    margin: 20px 0;
+}
+
+.hero-content{
+    gap: 35px;
+}
+
+}
+@media  (max-width:420px){
+.nav-icons{
+    gap: 15px;
+}
+}
+
+
